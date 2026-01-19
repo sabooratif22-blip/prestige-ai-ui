@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://prestige-ai-backend.username.repl.co/api";
 
 export default function App() {
   const [messages, setMessages] = useState([
